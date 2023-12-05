@@ -1,5 +1,5 @@
 
 
-var bitcoreTasks = require('bitcore-build-komodo');
+var bitcoreTasks = require('bitcore-build-candy');
 
 bitcoreTasks('lib');
