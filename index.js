@@ -10,7 +10,7 @@ bitcore.versionGuard = function(version) {
       'Please make sure to require bitcore-lib-candy and check that submodules do' +
       ' not also include their own bitcore-lib-candy dependency.';
     // TODO: put this back if we start versioning again
-    throw new Error(message);
+    // throw new Error(message);
   }
 };
 bitcore.versionGuard(global._bitcore);
